@@ -104,4 +104,25 @@ hr {
         width: 71%;
       
     }
+    .f-i {
+        margin-top: 21px;
+        margin-bottom: 12px;
+    }
+    .s-i {
+        margin-bottom: 12px;
+    }
+    .f-p {
+      
+        margin: 11px 0;
+    }
+    hr {
+       
+        margin: 23px auto 29px auto;
+        
+    }
+    .f-c {
+      
+        margin: 0 auto 32px auto;
+       
+    }
 }
