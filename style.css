@@ -11,17 +11,19 @@ body{
     
 }
 
-.m-h{
-    color:blue;
+.m-h {
+    color: blue;
     text-align: center;
-    margin:15px 0;
+    margin: 15px 0;
+    font-size: 89px;
 }
-.m-p{
+.m-p {
     color: #3498db;
-    width: 250px;
-    margin: 0 auto;
+    width: 322px;
+    margin: -5px auto 0px auto;
     text-align: center;
     margin-bottom: 15px;
+    font-size: 22px;
 }
 div{
     text-align: center;
@@ -29,13 +31,13 @@ div{
 form{
     border: 2px solid #bdc3c7;
     text-align: center;
-    width: 250px;
+    width: 45%;
    margin: auto;
    border-radius: 5px;
 }
 .f-s{
    display: block;
-   width: 85%;
+   width: 80%;
    
    text-align: center;
    padding: 8px 20px;
@@ -50,31 +52,56 @@ input{
     background: #fff;
     border-radius: 5px;
     border:0;
-}
-.f-i{
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-.s-i{
-    margin-bottom: 10px;
-}
-.f-p{
-    display: block;
-    color:#2980b9;
-    margin: 10px 0;
-}
-hr{
-    border:1.3px solid #bdc3c7;
-    margin:18px auto 25px auto ;
-    width: 85%;
+    
+        display: block;
+        width: 80%;
+        margin: auto;
     
 }
-.f-c{
+.f-i {
+    margin-top: 37px;
+    margin-bottom: 22px;
+}
+.s-i {
+    margin-bottom: 17px;
+}
+.f-p {
+    display: block;
+    color: #2980b9;
+    margin: 23px 0;
+}
+hr {
+    border: 1.3px solid #bdc3c7;
+    margin: 32px auto 33px auto;
+    width: 69%;
+}
+.f-c {
     display: block;
     padding: 12px 20px;
-    margin: 0 auto 24px auto;
+    margin: 0 auto 41px auto;
     background: #27ae60;
     border: 0;
     color: #fff;
     border-radius: 5px;
+}
+
+/* responsive */
+
+@media (max-width:768px){
+    
+    .m-h {
+        
+        font-size: 47px;
+    }
+    .m-p {
+     
+        width: 283px;
+       
+        font-size: 17px;
+    }
+    form {
+     
+        width: 71%;
+      
+    }
 }
