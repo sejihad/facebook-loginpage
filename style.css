@@ -5,9 +5,7 @@
     
 }
 body{
-    background-image:url('bg.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    
     
 }
 
@@ -51,11 +49,11 @@ input{
     padding: 10px 20px;
     background: #fff;
     border-radius: 5px;
-    border:0;
+    border:1px solid;
     
-        display: block;
-        width: 80%;
-        margin: auto;
+    display: block;
+    width: 80%;
+    margin: auto;
     
 }
 .f-i {
